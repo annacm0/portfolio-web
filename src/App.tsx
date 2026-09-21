@@ -1,8 +1,14 @@
+import Header from './components/header/header'
+
 function App() {
   return (
-    <main>
-      <h1>Portfólio</h1>
-    </main>
+    <>
+      <Header />
+
+      <main id="inicio">
+        <h1>Portfólio</h1>
+      </main>
+    </>
   )
 }
 
